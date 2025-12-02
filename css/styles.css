@@ -1,0 +1,123 @@
+img {
+    width: 20%;
+    height: 20%;
+}
+
+body {
+    background-color:rgb(255, 255, 238);
+}
+
+.s1 {
+    display: flex;
+    align-items: flex-start; /* items pelo topo */
+    gap: 20px;
+}
+
+/* Coluna esquerda (imagens) */
+.cesq {
+    display: flex;
+    flex-direction: column; /* imagens uma em cima da outra */
+    gap: 10px;
+}
+
+.cesq img {
+    width: 500px;
+    height: auto;
+}
+
+/* Coluna direita (texto) */
+.cdt {
+    display: flex;
+    flex-direction: column; /* texto em coluna */
+    justify-content: flex-start;
+}
+
+.cdt h1 {
+    font-size: 400%;
+    font-family: 'BROWN SUGAR', cursive;
+}
+.cdt h4 {
+    font-size: 350% ;
+    font-family: 'Playfair Display', cursive;
+}
+.cdt h5 {
+    font-size: 150% ;
+    font-family: 'Playfair Display', cursive;
+}
+.cdt h1,
+.cdt h4 {
+    margin: 0;
+}
+
+.s3 {
+    text-align: center;
+    text-decoration: black;
+}   
+
+.s3 a {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.s3 a:hover {
+    background-color: gray;
+}
+
+.s3 h1 {
+    font-size: 400%;
+    font-family: 'BROWN SUGAR', cursive;    
+}
+
+/* 2222222222222222222222222222222222222222 */
+
+.s5 {
+    display: flex;
+    align-items: flex-start; /* items pelo topo */
+    gap: 20px;
+    background-color: black;
+}
+
+/* Coluna esquerda (imagens) */
+.cesq2 {
+    display: flex;
+    flex-direction: column; /* imagens uma em cima da outra */
+    gap: 10px;
+}
+
+.cesq2 img {
+    width: 500px;
+    height: auto;
+}
+
+/* Coluna direita (texto) */
+.cdt2 {
+    display: flex;
+    flex-direction: column; /* texto em coluna */
+    justify-content: flex-start;
+}
+
+.cdt2 h1 {
+    font-size: 400%;
+    font-family: 'BROWN SUGAR', cursive;
+    color: white;
+}
+.cdt2 h4 {
+    font-size: 350% ;
+    font-family: 'Playfair Display', cursive;
+    color: white;
+}
+.cdt2 h5 {
+    font-size: 150% ;
+    font-family: 'Playfair Display', cursive;
+    color: white;
+}
+.cdt2 h1,
+.cdt2 h4 {
+    margin: 0;
+}
